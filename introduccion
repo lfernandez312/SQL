@@ -1,0 +1,10 @@
+SISTEMA DE GESTIÓN CINEMATOGRÁFICA
+
+Introducción
+
+En el emocionante mundo del cine, la gestión eficiente de la información es esencial para catalogar y explorar la diversidad de películas, actores y directores que forman parte de esta industria. Nuestro proyecto se centra en crear un Sistema de Gestión Cinematográfica, inspirado en la popular plataforma IMDb, que permita organizar y descubrir películas de manera eficiente, así como conocer más sobre los talentosos actores y directores que las hacen posibles.
+Características Clave:
+Tabla Película: Registra detalles esenciales como el título, año de lanzamiento, duración, género, clasificación y sinopsis de cada película. Además, se enlaza con la información del director responsable de la obra y muestra la puntuación promedio otorgada por los usuarios.
+Tabla Actor: Presenta información detallada de los actores involucrados en las películas, incluyendo su nombre completo, fecha de nacimiento, nacionalidad y una breve biografía que resalta sus logros en la industria cinematográfica.
+Tabla Director: Destaca la labor de los directores, brindando datos sobre su trayectoria. Los campos incluyen el nombre completo, fecha de nacimiento, nacionalidad y una biografía que resalta sus contribuciones al mundo del cine.
+Tabla Actuación: Esta tabla permite capturar la colaboración entre actores y películas, mostrando qué actores participaron en qué películas y en qué roles interpretativos
