@@ -8,3 +8,37 @@ Tabla Película: Registra detalles esenciales como el título, año de lanzamien
 Tabla Actor: Presenta información detallada de los actores involucrados en las películas, incluyendo su nombre completo, fecha de nacimiento, nacionalidad y una breve biografía que resalta sus logros en la industria cinematográfica.
 Tabla Director: Destaca la labor de los directores, brindando datos sobre su trayectoria. Los campos incluyen el nombre completo, fecha de nacimiento, nacionalidad y una biografía que resalta sus contribuciones al mundo del cine.
 Tabla Actuación: Esta tabla permite capturar la colaboración entre actores y películas, mostrando qué actores participaron en qué películas y en qué roles interpretativos
+
+Tema: Sistema de Gestión Cinematográfica
+
+Tabla Película:
+
+PeliculaID (PK)
+Título
+Año de lanzamiento
+Duración
+Género
+Clasificación
+Sinopsis
+DirectorID (FK)
+Puntuación promedio
+
+Tabla Actor:
+ActorID (PK)
+Nombre completo
+Fecha de nacimiento
+Nacionalidad
+Biografía
+
+Tabla Director:
+DirectorID (PK)
+Nombre completo
+Fecha de nacimiento
+Nacionalidad
+Biografía
+
+Tabla Actuación:
+ActuacionID (PK)
+PeliculaID (FK)
+ActorID (FK)
+Papel interpretado
